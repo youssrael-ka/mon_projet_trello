@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de Carte Trello</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="nameCard">Nom de la carte</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Nom de la carte" id="nameCard" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="descCard">Description</label>
+                </td>
+                <td>
+                    <textarea id="descCard" placeholder="Description de la carte" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="emailCard">Email</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Email" id="emailCard" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dobCard">Date de naissance</label>
+                </td>
+                <td>
+                    <input type="date" id="dobCard" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="send">Envoyer</button>
+                </td>
+            </tr>
+        </table>
+        <p id="data"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
