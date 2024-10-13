@@ -3,7 +3,7 @@ Projet Trello
 Description
 Ce projet consiste en une application web qui permet de créer des cartes Trello. L'application utilise l'API de Trello pour gérer les cartes, permettant ainsi aux utilisateurs de :
 
-Créer des cartes : L'utilisateur peut entrer le nom de la carte, une description, un email et une date de naissance, qui seront ensuite ajoutés à une liste Trello spécifiée.
+Créer des cartes : L'utilisateur peut entrer le nom de la carte, une description, un email et une date de l'événement, qui seront ensuite ajoutés à une liste Trello spécifiée.
 Visualiser les détails : Après l'envoi d'une carte, les détails de la carte créée sont affichés à l'utilisateur.
 
 Technologies utilisées :
@@ -24,7 +24,7 @@ Entrez les informations requises dans les champs :
 Nom de la carte : Le titre de la carte que vous souhaitez créer.
 Description : Une brève description de la carte.
 Email : L'adresse email associée à la carte.
-Date de naissance : La date de naissance au format jj/mm/aaaa.
+Date de l'événement : La date de l'événement au format jj/mm/aaaa.
 Cliquez sur le bouton Envoyer pour créer la carte. Un message de confirmation apparaîtra en bas de l'interface.
 
 Remarques
