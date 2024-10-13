@@ -1,11 +1,11 @@
 /* Id List */
-const list = "670ae68b721c55d7740d2ef7";
+const list = "";
 
 /* API Key  */
-const key = "7fe0db8ecc516841d342a93b33c24f71";
+const key = "";
 
 /* Token  */
-const token = "ATTAd33180570e0573cd22345c640466a2ede794b52596e64a86e4d9b01a7d286aa9473EEE24";
+const token = "";
 
 document.getElementById("send").addEventListener("click", (e) => {
     e.preventDefault();
